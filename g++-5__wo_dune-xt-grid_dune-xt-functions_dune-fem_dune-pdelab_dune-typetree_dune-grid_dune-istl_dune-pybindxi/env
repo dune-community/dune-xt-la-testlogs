@@ -1,5 +1,3 @@
-
-a matrix_type() to these vectors twice (once for sparse, once for dense)...
 BUILD_CMD=ninja -k 10000 -j 2
 CASHER_DIR=/home/travis/.casher
 CC=gcc-5
@@ -72,8 +70,8 @@ rvm_version=1.27.0 (latest)
 SHELL=/bin/bash
 SHLVL=3
 SRC_DCTRL=/home/travis/src/dune-common/bin/dunecontrol
-SSH_CLIENT=130.211.198.87 35714 22
-SSH_CONNECTION=130.211.198.87 35714 10.10.8.20 22
+SSH_CLIENT=104.154.22.166 50751 22
+SSH_CONNECTION=104.154.22.166 50751 10.10.8.27 22
 SSH_TTY=/dev/pts/0
 SUPERDIR=/home/travis/src
 _system_arch=x86_64
@@ -81,18 +79,17 @@ _system_name=Ubuntu
 _system_type=Linux
 _system_version=14.04
 TERM=xterm
-This would need some work bc. addbind_Matrix_Vector_interaction would add
 TRAVIS_ALLOW_FAILURE=false
 TRAVIS_BRANCH=python-bindings
 TRAVIS_BUILD_DIR=/home/travis/build/dune-community/dune-xt-la
-TRAVIS_BUILD_ID=198660855
-TRAVIS_BUILD_NUMBER=108
-TRAVIS_COMMIT=d27c62fe9c4926282fcec417b52242159d352124
-TRAVIS_COMMIT_MESSAGE=[bindings] disable dense amtrix/vector interaction
-TRAVIS_COMMIT_RANGE=9e1a4d2ceedb...d27c62fe9c49
+TRAVIS_BUILD_ID=199192197
+TRAVIS_BUILD_NUMBER=110
+TRAVIS_COMMIT=5e4dd2e4ea0692cba751c4c59cfdab08b9259ee0
+TRAVIS_COMMIT_MESSAGE=[cmake] create separate target for bindings
+TRAVIS_COMMIT_RANGE=d27c62fe9c49...5e4dd2e4ea06
 TRAVIS_EVENT_TYPE=push
-TRAVIS_JOB_ID=198660857
-TRAVIS_JOB_NUMBER=108.2
+TRAVIS_JOB_ID=199192199
+TRAVIS_JOB_NUMBER=110.2
 TRAVIS_LANGUAGE=generic
 TRAVIS_OS_NAME=linux
 TRAVIS_PULL_REQUEST_BRANCH=
