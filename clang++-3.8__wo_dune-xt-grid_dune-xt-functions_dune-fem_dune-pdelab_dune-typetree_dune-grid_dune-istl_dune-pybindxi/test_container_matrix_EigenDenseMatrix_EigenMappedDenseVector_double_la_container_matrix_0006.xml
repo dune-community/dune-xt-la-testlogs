@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="2" failures="0" disabled="0" errors="0" timestamp="2017-02-05T21:52:36" time="0" name="AllTests">
-  <testsuite name="MatrixTest" tests="2" failures="0" disabled="0" errors="0" time="0">
+<testsuites tests="2" failures="0" disabled="0" errors="0" timestamp="2017-02-07T13:49:56" time="0.001" name="AllTests">
+  <testsuite name="MatrixTest" tests="2" failures="0" disabled="0" errors="0" time="0.001">
     <testcase name="fulfills_interface" status="run" time="0" classname="MatrixTest" />
-    <testcase name="produces_correct_results" status="run" time="0" classname="MatrixTest" />
+    <testcase name="produces_correct_results" status="run" time="0.001" classname="MatrixTest" />
   </testsuite>
 </testsuites>
