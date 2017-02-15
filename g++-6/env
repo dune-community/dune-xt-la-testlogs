@@ -1,10 +1,10 @@
-BLD=--builddir=/root/dune_build/  --opts=config.opts/travis.ninja
+BLD=--builddir=/root/dune_build/  --opts=/root/src/config.opts/travis.ninja
 BUILD_CMD=ninja -k 10000 -j 2
 CC=gcc-6
 CLANG_FORMAT=/usr/bin/clang-format-3.8
 CTEST_OUTPUT_ON_FAILURE=1
 CXX=g++-6
-DBG=--builddir=/root/dune_build/  --opts=config.opts/travis.ninja
+DBG=--builddir=/root/dune_build/  --opts=/root/src/config.opts/travis.ninja
 DCTL_ARGS=--builddir=/root/dune_build/ 
 DEBIAN_FRONTEND=teletype
 DUNE_BUILD_DIR=/root/dune_build/
@@ -12,14 +12,14 @@ DUNE_VENV=/root/venv
 DUNE_VENV_ACTIVATE=. /root/venv/bin/activate
 GCOV=/usr/bin/gcov
 HOME=/root
-HOSTNAME=557a93c2337d
+HOSTNAME=67b4c7a137c1
 INSTALL_DIR=/root/dune
 LD_LIBRARY_PATH=/root/src/local/lib64:/root/src/local/lib:
 MY_MODULE=dune-xt-la
 OLDPWD=/root
 OPT=-O0
 OPTS=config.opts/travis.ninja
-PATH=/root/venv/bin:/usr/lib/ccache:/root/src/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+PATH=/root/venv/bin:/usr/lib/ccache:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 PKG_CONFIG_PATH=/root/src/local/lib64/pkgconfig:/root/src/local/lib/pkgconfig:/root/src/local/share/pkgconfig:
 PWD=/root/logs
 SHLVL=3
@@ -29,14 +29,14 @@ TRAVIS=true
 TRAVIS_ALLOW_FAILURE=false
 TRAVIS_BRANCH=master
 TRAVIS_BUILD_DIR=/home/travis/build/dune-community/dune-xt-la
-TRAVIS_BUILD_ID=195125473
-TRAVIS_BUILD_NUMBER=102
-TRAVIS_COMMIT=3c80bef4725af121f31bc93d85a1f0608d18a37c
-TRAVIS_COMMIT_MESSAGE=update gitignore
-TRAVIS_COMMIT_RANGE=22d45944a37a...3c80bef4725a
+TRAVIS_BUILD_ID=201863379
+TRAVIS_BUILD_NUMBER=115
+TRAVIS_COMMIT=b3bf53c71c695d058655464a2377d289549f48c1
+TRAVIS_COMMIT_MESSAGE=[license] ignore .vcsetup in cfg
+TRAVIS_COMMIT_RANGE=3c80bef4725a...b3bf53c71c69
 TRAVIS_EVENT_TYPE=push
-TRAVIS_JOB_ID=195125479
-TRAVIS_JOB_NUMBER=102.3
+TRAVIS_JOB_ID=201863380
+TRAVIS_JOB_NUMBER=115.1
 TRAVIS_LANGUAGE=generic
 TRAVIS_OS_NAME=linux
 TRAVIS_PULL_REQUEST=false
