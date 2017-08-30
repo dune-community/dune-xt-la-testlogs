@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="2" failures="0" disabled="0" errors="0" timestamp="2017-08-30T20:09:19" time="0.001" name="AllTests">
-  <testsuite name="VectorTest" tests="2" failures="0" disabled="0" errors="0" time="0.001">
-    <testcase name="fulfills_interface" status="run" time="0" classname="VectorTest" />
-    <testcase name="produces_correct_results" status="run" time="0" classname="VectorTest" />
+<testsuites tests="2" failures="0" disabled="0" errors="0" timestamp="2017-08-30T20:13:33" time="0.004" name="AllTests">
+  <testsuite name="VectorTest" tests="2" failures="0" disabled="0" errors="0" time="0.004">
+    <testcase name="fulfills_interface" status="run" time="0.001" classname="VectorTest" />
+    <testcase name="produces_correct_results" status="run" time="0.003" classname="VectorTest" />
   </testsuite>
 </testsuites>
