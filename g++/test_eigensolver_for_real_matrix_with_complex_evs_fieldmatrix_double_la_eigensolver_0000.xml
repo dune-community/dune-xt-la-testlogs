@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="9" failures="0" disabled="0" errors="0" timestamp="2017-11-29T21:01:25" time="0.223" name="AllTests">
-  <testsuite name="EigenSolverForRealMatrixWithComplexEvs" tests="9" failures="0" disabled="0" errors="0" time="0.222">
+<testsuites tests="9" failures="0" disabled="0" errors="0" timestamp="2017-11-29T21:04:26" time="0.219" name="AllTests">
+  <testsuite name="EigenSolverForRealMatrixWithComplexEvs" tests="9" failures="0" disabled="0" errors="0" time="0.219">
     <testcase name="exports_correct_types" status="run" time="0" classname="EigenSolverForRealMatrixWithComplexEvs" />
-    <testcase name="has_types_and_options" status="run" time="0.205" classname="EigenSolverForRealMatrixWithComplexEvs" />
-    <testcase name="throws_on_broken_matrix_construction" status="run" time="0.003" classname="EigenSolverForRealMatrixWithComplexEvs" />
+    <testcase name="has_types_and_options" status="run" time="0.184" classname="EigenSolverForRealMatrixWithComplexEvs" />
+    <testcase name="throws_on_broken_matrix_construction" status="run" time="0.009" classname="EigenSolverForRealMatrixWithComplexEvs" />
     <testcase name="allows_broken_matrix_construction_when_checks_disabled" status="run" time="0.001" classname="EigenSolverForRealMatrixWithComplexEvs" />
-    <testcase name="throws_on_inconsistent_given_options" status="run" time="0.001" classname="EigenSolverForRealMatrixWithComplexEvs" />
+    <testcase name="throws_on_inconsistent_given_options" status="run" time="0.002" classname="EigenSolverForRealMatrixWithComplexEvs" />
     <testcase name="is_constructible" status="run" time="0.001" classname="EigenSolverForRealMatrixWithComplexEvs" />
-    <testcase name="gives_correct_eigenvalues" status="run" time="0.004" classname="EigenSolverForRealMatrixWithComplexEvs" />
-    <testcase name="gives_correct_eigenvalues_in_correct_order" status="run" time="0.002" classname="EigenSolverForRealMatrixWithComplexEvs" />
+    <testcase name="gives_correct_eigenvalues" status="run" time="0.013" classname="EigenSolverForRealMatrixWithComplexEvs" />
+    <testcase name="gives_correct_eigenvalues_in_correct_order" status="run" time="0.003" classname="EigenSolverForRealMatrixWithComplexEvs" />
     <testcase name="gives_correct_eigendecomposition" status="run" time="0.003" classname="EigenSolverForRealMatrixWithComplexEvs" />
   </testsuite>
 </testsuites>
