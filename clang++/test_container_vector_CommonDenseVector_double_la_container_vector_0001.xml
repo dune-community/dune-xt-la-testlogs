@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="2" failures="0" disabled="0" errors="0" timestamp="2017-12-01T16:32:16" time="0.09" name="AllTests">
-  <testsuite name="VectorTest" tests="2" failures="0" disabled="0" errors="0" time="0.09">
-    <testcase name="fulfills_interface" status="run" time="0.02" classname="VectorTest" />
-    <testcase name="produces_correct_results" status="run" time="0.069" classname="VectorTest" />
-  </testsuite>
-</testsuites>
