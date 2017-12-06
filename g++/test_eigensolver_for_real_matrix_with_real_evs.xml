@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="32" failures="0" disabled="0" errors="0" timestamp="2017-12-06T19:43:50" time="0.197" name="AllTests">
+  <testsuite name="EigenSolverForMatrixFullOfOnes_EigenDenseMatrix_double__double_EigenDenseMatrix_std__complex_double___EigenDenseMatrix_double_" tests="16" failures="0" disabled="0" errors="0" time="0.042">
+    <testcase name="exports_correct_types" status="run" time="0.002" classname="EigenSolverForMatrixFullOfOnes_EigenDenseMatrix_double__double_EigenDenseMatrix_std__complex_double___EigenDenseMatrix_double_" />
+    <testcase name="has_types_and_options" status="run" time="0.002" classname="EigenSolverForMatrixFullOfOnes_EigenDenseMatrix_double__double_EigenDenseMatrix_std__complex_double___EigenDenseMatrix_double_" />
+    <testcase name="throws_on_broken_matrix_construction" status="run" time="0.002" classname="EigenSolverForMatrixFullOfOnes_EigenDenseMatrix_double__double_EigenDenseMatrix_std__complex_double___EigenDenseMatrix_double_" />
+    <testcase name="allows_broken_matrix_construction_when_checks_disabled" status="run" time="0.002" classname="EigenSolverForMatrixFullOfOnes_EigenDenseMatrix_double__double_EigenDenseMatrix_std__complex_double___EigenDenseMatrix_double_" />
+    <testcase name="throws_on_inconsistent_given_options" status="run" time="0.003" classname="EigenSolverForMatrixFullOfOnes_EigenDenseMatrix_double__double_EigenDenseMatrix_std__complex_double___EigenDenseMatrix_double_" />
+    <testcase name="is_constructible" status="run" time="0.002" classname="EigenSolverForMatrixFullOfOnes_EigenDenseMatrix_double__double_EigenDenseMatrix_std__complex_double___EigenDenseMatrix_double_" />
+    <testcase name="gives_correct_eigenvalues" status="run" time="0.002" classname="EigenSolverForMatrixFullOfOnes_EigenDenseMatrix_double__double_EigenDenseMatrix_std__complex_double___EigenDenseMatrix_double_" />
+    <testcase name="gives_correct_eigenvalues_in_correct_order" status="run" time="0.005" classname="EigenSolverForMatrixFullOfOnes_EigenDenseMatrix_double__double_EigenDenseMatrix_std__complex_double___EigenDenseMatrix_double_" />
+    <testcase name="gives_correct_real_eigenvalues" status="run" time="0.002" classname="EigenSolverForMatrixFullOfOnes_EigenDenseMatrix_double__double_EigenDenseMatrix_std__complex_double___EigenDenseMatrix_double_" />
+    <testcase name="gives_correct_real_eigenvalues_in_correct_order" status="run" time="0" classname="EigenSolverForMatrixFullOfOnes_EigenDenseMatrix_double__double_EigenDenseMatrix_std__complex_double___EigenDenseMatrix_double_" />
+    <testcase name="gives_correct_max_eigenvalue" status="run" time="0.006" classname="EigenSolverForMatrixFullOfOnes_EigenDenseMatrix_double__double_EigenDenseMatrix_std__complex_double___EigenDenseMatrix_double_" />
+    <testcase name="gives_correct_min_eigenvalue" status="run" time="0.001" classname="EigenSolverForMatrixFullOfOnes_EigenDenseMatrix_double__double_EigenDenseMatrix_std__complex_double___EigenDenseMatrix_double_" />
+    <testcase name="gives_correct_eigenvectors_in_correct_order" status="run" time="0.005" classname="EigenSolverForMatrixFullOfOnes_EigenDenseMatrix_double__double_EigenDenseMatrix_std__complex_double___EigenDenseMatrix_double_" />
+    <testcase name="gives_correct_real_eigenvectors_in_correct_order" status="run" time="0.001" classname="EigenSolverForMatrixFullOfOnes_EigenDenseMatrix_double__double_EigenDenseMatrix_std__complex_double___EigenDenseMatrix_double_" />
+    <testcase name="gives_correct_eigendecomposition" status="run" time="0.003" classname="EigenSolverForMatrixFullOfOnes_EigenDenseMatrix_double__double_EigenDenseMatrix_std__complex_double___EigenDenseMatrix_double_" />
+    <testcase name="gives_correct_real_eigendecomposition" status="run" time="0.001" classname="EigenSolverForMatrixFullOfOnes_EigenDenseMatrix_double__double_EigenDenseMatrix_std__complex_double___EigenDenseMatrix_double_" />
+  </testsuite>
+  <testsuite name="EigenSolverForMatrixFullOfOnes_FieldMatrix_double__2__2__double_FieldMatrix_std__complex_double___2__2__FieldMatrix_double__2__2_" tests="16" failures="0" disabled="0" errors="0" time="0.155">
+    <testcase name="exports_correct_types" status="run" time="0.003" classname="EigenSolverForMatrixFullOfOnes_FieldMatrix_double__2__2__double_FieldMatrix_std__complex_double___2__2__FieldMatrix_double__2__2_" />
+    <testcase name="has_types_and_options" status="run" time="0.134" classname="EigenSolverForMatrixFullOfOnes_FieldMatrix_double__2__2__double_FieldMatrix_std__complex_double___2__2__FieldMatrix_double__2__2_" />
+    <testcase name="throws_on_broken_matrix_construction" status="run" time="0.001" classname="EigenSolverForMatrixFullOfOnes_FieldMatrix_double__2__2__double_FieldMatrix_std__complex_double___2__2__FieldMatrix_double__2__2_" />
+    <testcase name="allows_broken_matrix_construction_when_checks_disabled" status="run" time="0.001" classname="EigenSolverForMatrixFullOfOnes_FieldMatrix_double__2__2__double_FieldMatrix_std__complex_double___2__2__FieldMatrix_double__2__2_" />
+    <testcase name="throws_on_inconsistent_given_options" status="run" time="0" classname="EigenSolverForMatrixFullOfOnes_FieldMatrix_double__2__2__double_FieldMatrix_std__complex_double___2__2__FieldMatrix_double__2__2_" />
+    <testcase name="is_constructible" status="run" time="0.001" classname="EigenSolverForMatrixFullOfOnes_FieldMatrix_double__2__2__double_FieldMatrix_std__complex_double___2__2__FieldMatrix_double__2__2_" />
+    <testcase name="gives_correct_eigenvalues" status="run" time="0.002" classname="EigenSolverForMatrixFullOfOnes_FieldMatrix_double__2__2__double_FieldMatrix_std__complex_double___2__2__FieldMatrix_double__2__2_" />
+    <testcase name="gives_correct_eigenvalues_in_correct_order" status="run" time="0.001" classname="EigenSolverForMatrixFullOfOnes_FieldMatrix_double__2__2__double_FieldMatrix_std__complex_double___2__2__FieldMatrix_double__2__2_" />
+    <testcase name="gives_correct_real_eigenvalues" status="run" time="0.002" classname="EigenSolverForMatrixFullOfOnes_FieldMatrix_double__2__2__double_FieldMatrix_std__complex_double___2__2__FieldMatrix_double__2__2_" />
+    <testcase name="gives_correct_real_eigenvalues_in_correct_order" status="run" time="0.001" classname="EigenSolverForMatrixFullOfOnes_FieldMatrix_double__2__2__double_FieldMatrix_std__complex_double___2__2__FieldMatrix_double__2__2_" />
+    <testcase name="gives_correct_max_eigenvalue" status="run" time="0.002" classname="EigenSolverForMatrixFullOfOnes_FieldMatrix_double__2__2__double_FieldMatrix_std__complex_double___2__2__FieldMatrix_double__2__2_" />
+    <testcase name="gives_correct_min_eigenvalue" status="run" time="0.001" classname="EigenSolverForMatrixFullOfOnes_FieldMatrix_double__2__2__double_FieldMatrix_std__complex_double___2__2__FieldMatrix_double__2__2_" />
+    <testcase name="gives_correct_eigenvectors_in_correct_order" status="run" time="0.001" classname="EigenSolverForMatrixFullOfOnes_FieldMatrix_double__2__2__double_FieldMatrix_std__complex_double___2__2__FieldMatrix_double__2__2_" />
+    <testcase name="gives_correct_real_eigenvectors_in_correct_order" status="run" time="0.001" classname="EigenSolverForMatrixFullOfOnes_FieldMatrix_double__2__2__double_FieldMatrix_std__complex_double___2__2__FieldMatrix_double__2__2_" />
+    <testcase name="gives_correct_eigendecomposition" status="run" time="0.001" classname="EigenSolverForMatrixFullOfOnes_FieldMatrix_double__2__2__double_FieldMatrix_std__complex_double___2__2__FieldMatrix_double__2__2_" />
+    <testcase name="gives_correct_real_eigendecomposition" status="run" time="0.002" classname="EigenSolverForMatrixFullOfOnes_FieldMatrix_double__2__2__double_FieldMatrix_std__complex_double___2__2__FieldMatrix_double__2__2_" />
+  </testsuite>
+</testsuites>
